@@ -3,8 +3,7 @@ class StaticpagesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
-    end
-
+  end
 
   test "should get home" do
     get staticpages_home_url
